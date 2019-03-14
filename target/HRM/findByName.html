@@ -1,0 +1,14 @@
+<div>
+	<ul>
+			<!--数据绑定-->
+			<li ng-repeat="emp in emps">
+					<p>empno:{{emp.empno}}</p>
+					<p>ename:{{emp.ename}}</p>
+					<p>sal:{{emp.sal}}</p>
+					<p><button id="updateBtn" ng-click="update(emp)">更新</button><button id="deleteBtn" ng-click="del(emp.empno)">删除</button></p>
+					<hr/>
+					
+				</div>
+			</li>
+		</ul>
+</div>

@@ -1,1 +1,1 @@
-# spring_struts2_maven_HRM
+# spring_maven_HRM
